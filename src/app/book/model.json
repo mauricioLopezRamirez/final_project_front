@@ -1,0 +1,39 @@
+{ 
+    "title": "Book",
+    "entity": "book",
+    "api": {
+      "url": "https://localhost:5001/api/Book"
+    },
+    "filter": [
+      "name"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "isId": true,
+        "readonly": true,
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "label": "Year"
+      },
+      {
+        "name": "authorId",
+        "type": "string",
+        "label": "Author"
+      },
+      {
+        "name": "genreId",
+        "type": "string",
+        "label": "Genre"
+      } 
+    ]
+}

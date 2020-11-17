@@ -1,0 +1,29 @@
+{ 
+    "title": "Genre",
+    "entity": "genre",
+    "api": {
+      "url": "https://localhost:5001/api/Genre"
+    },
+    "filter": [
+      "name"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "isId": true,
+        "readonly": true,
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "label": "Description"
+      } 
+    ]
+}

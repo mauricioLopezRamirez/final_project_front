@@ -1,0 +1,29 @@
+{ 
+    "title": "Author",
+    "entity": "author",
+    "api": {
+      "url": "https://localhost:5001/api/Author"
+    },
+    "filter": [
+      "name"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "isId": true,
+        "readonly": true,
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "label": "Email"
+      } 
+    ]
+}
